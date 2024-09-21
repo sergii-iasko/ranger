@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Dark background for contrast */
+    color: #f5f5f5; /* Light text color for readability */
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(to right, #2b2b2b, #3a3a3a); /* Dark gradient for header */
+    color: #ffd700; /* Gold text color */
+    padding: 40px 0;
+    border-bottom: 2px solid #ffd700; /* Gold border at the bottom of header */
+}
+
+.logo {
+    width: 100px;
+    float: left;
+}
+
+.header-text {
+    margin-left: 120px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    margin: 10px 0 0;
+}
+
+/* Section Styles */
+section {
+    background: #2b2b2b; /* Dark background for sections */
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    font-size: 28px;
+    color: #ffd700; /* Gold heading color */
+    margin-bottom: 10px;
+}
+
+/* Button Styles */
+button {
+    display: inline-block;
+    background-color: #ffd700; /* Gold background for buttons */
+    color: #1a1a1a; /* Dark text color on button */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e6b800; /* Slightly darker gold on hover */
+}
+
+/* Footer Styles */
+footer {
+    background: #1a1a1a; /* Dark background for footer */
+    color: #ffd700; /* Gold text color */
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid #ffd700; /* Gold border at the top of footer */
+}
